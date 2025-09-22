@@ -9,29 +9,32 @@ int main(){
     // }else{
     //     cout<<"Offer rejected";
    // }
-   char ch;
-   cout<<"Enter Your char : ";
-   cin>>ch; 
+   int n;
+   cout<<"Enter Your n : ";
+   cin>>n; 
 
-   if(ch=='a'){
-    cout<<"Vowel";
+   if(n==1){
+    cout<<"Monday";
 
-   } else if (ch=='e')
-   {cout<<"Vowel";
+   } else if (n==2)
+   {cout<<"Tuesday";
     
    }
-   else if (ch=='i')
-   {cout<<"Vowel";
+   else if (n==3)
+   {cout<<"Wednesday";
     
-   }else if (ch=='0')
-   {cout<<"Vowel";
+   }else if (n==4)
+   {cout<<"thursday";
     
-   }else if (ch=='u')
-   {cout<<"Vowel";
+   }else if (n==5)
+   {cout<<"friday";
     
-   }else  
-   {cout<<"consonent";
+   }else if(n==6) 
+   {cout<<"saturday";
     
-   }
+   }else if(n==7) 
+   cout<<'sunday';
+   else
+   cout<<" enter valid day";
    
 }
