@@ -9,14 +9,29 @@ int main(){
     // }else{
     //     cout<<"Offer rejected";
    // }
-   int a , b;
-   cout<<"Enter Your number : ";
-   cin>>a; 
+   char ch;
+   cout<<"Enter Your char : ";
+   cin>>ch; 
 
-   if(a%2==0){
-    cout<<"Even";
+   if(ch=='a'){
+    cout<<"Vowel";
 
-   }else{
-     cout<<"Odd";
+   } else if (ch=='e')
+   {cout<<"Vowel";
+    
    }
+   else if (ch=='i')
+   {cout<<"Vowel";
+    
+   }else if (ch=='0')
+   {cout<<"Vowel";
+    
+   }else if (ch=='u')
+   {cout<<"Vowel";
+    
+   }else  
+   {cout<<"consonent";
+    
+   }
+   
 }
