@@ -10,14 +10,13 @@ int main(){
     //     cout<<"Offer rejected";
    // }
    int a , b;
-   cout<<"Enter Your a : ";
+   cout<<"Enter Your number : ";
    cin>>a; 
-   cout<<"Enter Your b : ";
-   cin>>b;
-   if(a>b){
-    cout<<"yes a is grater than b";
+
+   if(a%2==0){
+    cout<<"Even";
 
    }else{
-     cout<<"  No a is less than b";
+     cout<<"Odd";
    }
 }
