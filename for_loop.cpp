@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int count=5;
-    for(int i=1;i<=count;i++){
-cout<<"Pallavi\n";
-    }
+    int n=5;
+    for(int i=1;i<=n;i=i+1){
+cout<<i<<endl;        }
 }
