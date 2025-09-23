@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char name;
-    for(name='a';name<='z';name=name+1)
+    int  num;
+    for(num=10;num>=1;num=num-1)
     {
-        cout<<name<<" " ;
+        cout<<num<<" " ;
     }
 }
