@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int  num,i;
-    cout<<"Enter the table : ";
-    cin>>num;
-    for( i=1;i<=10;i=i+1)
+    int  n,i,power,num;;
+    cout<<"Enter the number: ";
+    cin>>n;
+    cout<<"Enter the power: ";
+    cin>>power;
+    num=n;
+    for( i=1;i<power;i=i+1)
     {
-        cout<<num <<"*"<< i << " = "<<num*i<<endl ;
-    }
+        num=num*n;
+
+    }cout<<num;
 }
