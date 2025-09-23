@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int  n,i,power,num;;
+    int  n,i,sum;;
     cout<<"Enter the number: ";
     cin>>n;
-    cout<<"Enter the power: ";
-    cin>>power;
-    num=n;
-    for( i=1;i<power;i=i+1)
+   
+    
+    sum=0;
+    for( i=1;i<=n;i=i+1)
     {
-        num=num*n;
+        sum=sum+i;
 
-    }cout<<num;
+    }cout<<sum;
 }
